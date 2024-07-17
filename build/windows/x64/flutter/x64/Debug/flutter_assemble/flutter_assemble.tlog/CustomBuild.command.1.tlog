@@ -1,0 +1,28 @@
+^D:\FLUTTER_PROJECTS\MY_COM\ECOM_STARTUP_CODE\CLIENT_SIDE\ADMIN_PANAL_STARTUP\BUILD\WINDOWS\X64\CMAKEFILES\80D3710228CB83893C22DE17AFAF2E0A\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter\flutter PROJECT_DIR=D:\flutter_projects\my_com\ecom_startup_code\client_side\admin_panal_startup FLUTTER_ROOT=C:\src\flutter\flutter FLUTTER_EPHEMERAL_DIR=D:\flutter_projects\my_com\ecom_startup_code\client_side\admin_panal_startup\windows\flutter\ephemeral PROJECT_DIR=D:\flutter_projects\my_com\ecom_startup_code\client_side\admin_panal_startup FLUTTER_TARGET=D:\flutter_projects\my_com\ecom_startup_code\client_side\admin_panal_startup\lib\main.dart DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz10cnVl,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9lZGQ4NTQ2MTE2NDU3YmRmMWM1YmRmYjEzZWNiOTQ2M2QyYmI1ZWQ0Lw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=D:\flutter_projects\my_com\ecom_startup_code\client_side\admin_panal_startup\.dart_tool\package_config.json C:/src/flutter/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\FLUTTER_PROJECTS\MY_COM\ECOM_STARTUP_CODE\CLIENT_SIDE\ADMIN_PANAL_STARTUP\BUILD\WINDOWS\X64\CMAKEFILES\F58B8727BFE541A74F41B4658CD4D8E7\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\FLUTTER_PROJECTS\MY_COM\ECOM_STARTUP_CODE\CLIENT_SIDE\ADMIN_PANAL_STARTUP\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/flutter_projects/my_com/ecom_startup_code/client_side/admin_panal_startup/windows -BD:/flutter_projects/my_com/ecom_startup_code/client_side/admin_panal_startup/build/windows/x64 --check-stamp-file D:/flutter_projects/my_com/ecom_startup_code/client_side/admin_panal_startup/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
